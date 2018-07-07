@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B51F665F20F0C4E800404DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F665E20F0C4E800404DD1 /* AppDelegate.swift */; };
-		B51F666120F0C4E800404DD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F666020F0C4E800404DD1 /* ViewController.swift */; };
+		B51F666120F0C4E800404DD1 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F666020F0C4E800404DD1 /* ToDoListViewController.swift */; };
 		B51F666420F0C4E800404DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51F666220F0C4E800404DD1 /* Main.storyboard */; };
 		B51F666620F0C4E800404DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51F666520F0C4E800404DD1 /* Assets.xcassets */; };
 		B51F666920F0C4E800404DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51F666720F0C4E800404DD1 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		B51F665B20F0C4E800404DD1 /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51F665E20F0C4E800404DD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B51F666020F0C4E800404DD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B51F666020F0C4E800404DD1 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		B51F666320F0C4E800404DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B51F666520F0C4E800404DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B51F666820F0C4E800404DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				B51F665E20F0C4E800404DD1 /* AppDelegate.swift */,
-				B51F666020F0C4E800404DD1 /* ViewController.swift */,
+				B51F666020F0C4E800404DD1 /* ToDoListViewController.swift */,
 				B51F666220F0C4E800404DD1 /* Main.storyboard */,
 				B51F666520F0C4E800404DD1 /* Assets.xcassets */,
 				B51F666720F0C4E800404DD1 /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B51F666120F0C4E800404DD1 /* ViewController.swift in Sources */,
+				B51F666120F0C4E800404DD1 /* ToDoListViewController.swift in Sources */,
 				B51F665F20F0C4E800404DD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,10 +275,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W8V2UQ67VN;
+				DEVELOPMENT_TEAM = Z843JNTLAS;
 				INFOPLIST_FILE = "To Do List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.To-Do-List";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moussa.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,10 +290,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W8V2UQ67VN;
+				DEVELOPMENT_TEAM = Z843JNTLAS;
 				INFOPLIST_FILE = "To Do List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.To-Do-List";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moussa.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
