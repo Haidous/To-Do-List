@@ -12,7 +12,8 @@
 		B51F666420F0C4E800404DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51F666220F0C4E800404DD1 /* Main.storyboard */; };
 		B51F666620F0C4E800404DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51F666520F0C4E800404DD1 /* Assets.xcassets */; };
 		B51F666920F0C4E800404DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51F666720F0C4E800404DD1 /* LaunchScreen.storyboard */; };
-		B593687520F101F6000964BF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593687420F101F6000964BF /* Item.swift */; };
+		B5CD99FE20F1298D000DD362 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD99FD20F1298D000DD362 /* CategoryViewController.swift */; };
+		B5DE4B2920F11B4300CB0B76 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5DE4B2720F11B4300CB0B76 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		B51F666520F0C4E800404DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B51F666820F0C4E800404DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B51F666A20F0C4E800404DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B593687420F101F6000964BF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B5CD99FD20F1298D000DD362 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		B5DE4B2820F11B4300CB0B76 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		B51F665D20F0C4E800404DD1 /* To Do List */ = {
 			isa = PBXGroup;
 			children = (
+				B51F665E20F0C4E800404DD1 /* AppDelegate.swift */,
 				B593687620F1020D000964BF /* Model */,
 				B593687720F10244000964BF /* Controller */,
 				B593687920F10287000964BF /* View */,
@@ -68,7 +71,7 @@
 		B593687620F1020D000964BF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B593687420F101F6000964BF /* Item.swift */,
+				B5DE4B2720F11B4300CB0B76 /* DataModel.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -76,7 +79,7 @@
 		B593687720F10244000964BF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B51F665E20F0C4E800404DD1 /* AppDelegate.swift */,
+				B5CD99FD20F1298D000DD362 /* CategoryViewController.swift */,
 				B51F666020F0C4E800404DD1 /* ToDoListViewController.swift */,
 			);
 			path = Controller;
@@ -171,8 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5CD99FE20F1298D000DD362 /* CategoryViewController.swift in Sources */,
 				B51F666120F0C4E800404DD1 /* ToDoListViewController.swift in Sources */,
-				B593687520F101F6000964BF /* Item.swift in Sources */,
+				B5DE4B2920F11B4300CB0B76 /* DataModel.xcdatamodeld in Sources */,
 				B51F665F20F0C4E800404DD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z843JNTLAS;
 				INFOPLIST_FILE = "To Do List/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moussa.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -329,7 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z843JNTLAS;
 				INFOPLIST_FILE = "To Do List/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moussa.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +364,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5DE4B2720F11B4300CB0B76 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5DE4B2820F11B4300CB0B76 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = B5DE4B2820F11B4300CB0B76 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B51F665320F0C4E800404DD1 /* Project object */;
 }
